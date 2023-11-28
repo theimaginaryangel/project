@@ -1,0 +1,369 @@
+/* General styles */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+
+
+/* Header styles */
+
+/* Header styling */
+.header {
+    
+    padding: 20px;
+    color: #1e5a8b;
+    background-color: #ffffff;
+    
+    
+}
+
+.header img {
+    height: 50px;
+    position: relative;
+    left: 40%;
+    
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    color: 1e5a8b;
+    text-align: center;
+}
+
+
+
+   /* Style the navigation bar */
+   .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #1e5a8b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar a:active{
+    background-color: #1e5a8b;
+    color: #ffffff;
+  }
+.navbar a:hover{
+    background-color: #1e5a8b;
+    color: #ffffff;
+  }
+  
+/* Style the dropdown button */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+   }
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: 1e5a8b;
+    padding: 14px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/* Hide the dropdown content by default */
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px
+
+8px
+
+16px
+
+0px
+
+rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+
+
+.dropdown-content
+
+a {
+    float: none;
+    color: rgb(204, 166, 42);
+    padding: 12px
+
+16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the color of dropdown links on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Hero section styles */
+
+hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+    background-color: #29508ade;
+}
+
+hero h1 {
+    font-size: 40px;
+    margin-top: 20%;
+
+    margin-bottom: 20px;
+}
+
+hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+hero .btn {
+
+    color: white;
+    padding: 10px 20px;
+    border: solid;
+    border-color: #f5f5f5;
+    cursor: pointer;
+}
+
+hero .btn :hover {
+    color: rgb(12, 36, 102);
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+/* Why DCS section styles */
+
+why-dcs {
+    padding: 50px 0;
+    
+}
+.resource-item {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+
+why-dcs h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+why-dcs ul {
+    list-style: none;
+    padding: 0;
+    margin: auto;
+}
+
+why-dcs ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+why-dcs ul li img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+why-dcs ul li h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+why-dcs ul li p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Programs section styles */
+
+.programs {
+    padding: 50px 0;
+}
+
+.programs h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.programs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.program-card {
+    width: 320px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.program-card img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.program-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.program-card .btn {
+    background-color: #1e5a8b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.program-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+    
+    /* Success Stories section styles */
+    
+    .success-stories {
+        padding: 50px 0;
+    }
+    
+    .success-stories h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .testimonials-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .testimonial {
+        width: 320px;
+        margin: 20px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+    
+    .testimonial img {
+        width: 100px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+    }
+    
+    .testimonial h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    
+    .testimonial p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    /* CTA section styles */
+    
+    .cta {
+        padding: 50px 0;
+        background-color: #1e5a8b;
+        color: white;
+    }
+    
+    .cta h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .cta p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .cta .btn {
+        background-color: #fff;
+        color: #1e5a8b;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        width: 20%;
+    }
+    
+    /* Footer styles */
+    
+    footer {
+        background-color: #f5f5f5;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    footer ul li {
+        margin-bottom: 10px;
+    }
+    

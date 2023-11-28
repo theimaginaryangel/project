@@ -1,0 +1,221 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-image: url('images/hero-image.jpg');
+}
+
+/* Header styling */
+.header {
+    
+    padding: 20px;
+    color: #1e5a8b;
+    background-color: #ffffff;
+    
+    
+}
+
+.header img {
+    height: 50px;
+    position: relative;
+    left: 40%;
+    
+}
+
+.header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    color: rgb(15, 36, 131);
+    text-align: center;
+}
+
+
+
+   /* Style the navigation bar */
+   .navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #1e5a8b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #1e5a8b;
+    color: #ffffff;
+  }
+  
+/* Style the dropdown button */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+   }
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(15, 36, 131);
+    padding: 14px;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+/* Hide the dropdown content by default */
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px
+
+8px
+
+16px
+
+0px
+
+rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+
+
+.dropdown-content
+
+a {
+    float: none;
+    color: rgb(204, 166, 42);
+    padding: 12px
+
+16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change the color of dropdown links on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #29508ade;
+} 
+
+    .hero-content {
+        text-align: center;
+        color: white;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width:100%;
+    }
+
+    
+    .hero-content h1 {
+        font-size: 40px;
+        margin-top: 10%;
+        margin-bottom: 20px;
+    }
+    
+    .hero-content p {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    
+    .hero-content .btn {
+        background-color: #1e5a8b;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+.section-container {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.benefit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefit-item {
+    margin-bottom: 10px;
+}
+
+.resource-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.resource-item {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.resource-item .btn {
+    background-color: #1e5a8b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.tip-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tip-item {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
